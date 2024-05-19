@@ -18,5 +18,16 @@ public class TestCalc {
         assertEquals(res,-1);
     }
 
+    @Test
+    public void testDiv(){
+        int res = calc.div(10,2);
+        assertEquals(res,5);
+    }
+
+    @Test
+    public void testMult(){
+        int res = calc.mul(50,2);
+        assertEquals(res,100);
+    }
 
 }
